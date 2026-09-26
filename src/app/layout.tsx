@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   creator: siteConfig.name,
   keywords: ["IP lookup", "IP geolocation", "network tools", "reverse DNS", "IPv4", "IPv6"],
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
+  verification: { google: "j-iHu7oSEMHvRJt9EXUbTqBgAL71liygmOrO5HD72EU" },
   openGraph: { type: "website", siteName: siteConfig.name, title: "IPAnalyzer Pro", description: siteConfig.description, images: ["/images/og-image.svg"] },
   twitter: { card: "summary_large_image", title: "IPAnalyzer Pro", description: siteConfig.description, images: ["/images/og-image.svg"] },
 };
